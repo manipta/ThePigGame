@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top left, #17a2b8, #20c997); /* Cyan and Teal */
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0rem 3rem 5rem rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 1rem;
+  backdrop-filter: blur(20rem);
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 50%;
+  align-items: center;
+  padding: 9rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 1rem;
+}
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.name {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.4rem;
+  font-weight: 100;
+}
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  margin-bottom: auto;
+  color: #c7365f;
+}
+.current {
+  background-color: #c7365f;
+  padding: 3rem 5rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 1.5rem;
+  opacity: 0.6;
+}
+
+.player--active .current {
+  opacity: 0.9;
+}
+.player--active .name {
+  font-weight: 600;
+}
+
+.current-label {
+  font-size: 1.7rem;
+}
+.current-score {
+  font-size: 3.5rem;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 50rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn::first-letter {
+  font-size: 2.4rem;
+  margin-right: 0.8rem;
+}
+.btn:focus {
+  outline: none;
+}
+.btn--new {
+  top: 4rem;
+}
+.btn--roll {
+  top: 39rem;
+}
+.btn--hold {
+  top: 46rem;
+}
+
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.15);
+  /* background-color: #bf2e34; */
+}
+
+.dice {
+  position: absolute;
+  width: 10rem;
+  top: 18rem;
+  left: 50rem;
+  border-radius: 15%;
+  transform: translate(-50%);
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+}
+
+.player--winner {
+  background-color: #2f2f2f;
+}
+
+.player--winner .name {
+  font-weight: 700;
+  color: #c7365f;
+}
+
