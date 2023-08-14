@@ -1,5 +1,5 @@
 # The-Pig-Game
-This is a Pig game made in JavaScript with interactive UI <br>
+This is a Pig game made in JavaScript with an interactive UI <br>
 # Rules:
 - There are two Players
 - Each time Dice is rolled, the score current is added to the previous score. 
@@ -11,6 +11,8 @@ This is a Pig game made in JavaScript with interactive UI <br>
 <img src= "GameScreenshots/start.png">
 
 # Winning Game Screenshot
-Player 1 won, click New Game button to restart the game
+
+<strong>Player 1 won</strong>, click New Game button to restart the game
+
 <img src= "GameScreenshots/won.png">
 
