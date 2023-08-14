@@ -8,9 +8,9 @@ This is a Pig game made in JavaScript with interactive UI <br>
 - When the Player's total Scores become equal to or greater than 100 then the player will win the game.
 
 # Game Starting Screenshot
-<img src= "GameScreenshots/start.PNG">
+<img src= "GameScreenshots/start.png">
 
 # Winning Game Screenshot
 Player 1 won, click New Game button to restart the game
-<img src= "GameScreenshots/won.PNG">
+<img src= "GameScreenshots/won.png">
 
