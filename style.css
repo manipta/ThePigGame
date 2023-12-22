@@ -18,7 +18,9 @@ body {
   align-items: center;
   background-image: linear-gradient(to top left, #17a2b8, #20c997); /* Cyan and Teal */
 }
-
+.hidden{
+display: none;
+}
 main {
   position: relative;
   width: 100rem;
